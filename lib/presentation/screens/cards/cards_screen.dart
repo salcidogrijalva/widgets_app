@@ -188,7 +188,6 @@ class _CardType4 extends StatelessWidget {
                     onPressed: () {},
                     icon: const Icon(Icons.more_vert_rounded)),
               )),
-          
         ],
       ),
     );
