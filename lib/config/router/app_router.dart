@@ -44,5 +44,10 @@ final appRouter = GoRouter(
       name: TutorialScreen.name,
       builder: (context, state) => const TutorialScreen(),
     ),
+    GoRoute(
+      path: '/infinite',
+      name: InfiniteScrollScreen.name,
+      builder: (context, state) => const InfiniteScrollScreen(),
+    ),
   ],
 );
